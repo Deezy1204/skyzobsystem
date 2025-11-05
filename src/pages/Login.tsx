@@ -44,12 +44,6 @@ const Login: React.FC = () => {
             <Button type="submit" disabled={loading} className="w-100">
               {loading ? 'Signing in...' : 'Sign in'}
             </Button>
-
-            <div className="text-center mt-3">
-              <small>
-                Don't have an account? <Link to="/signup">Sign up</Link>
-              </small>
-            </div>
           </Form>
         </Card.Body>
       </Card>
